@@ -1,0 +1,35 @@
+{
+  "development": {
+    "username": "root",
+    "password": "",
+    "database": "test",
+    "host": "127.0.0.1",
+    "port": 3306,
+    "dialect": "mysql",
+    "logging": true,
+    "force": true,
+    "timezone": "+01:00"
+  },
+  "test": {
+    "username": "postgres",
+    "password": "postgres",
+    "database": "app-test",
+    "host": "127.0.0.1",
+    "port": 5432,
+    "dialect": "postgres",
+    "logging": true,
+    "force": true,
+    "timezone": "+00:00"
+  },
+  "production": {
+    "username": "root",
+    "password": "",
+    "database": "test",
+    "host": "127.0.0.1",
+    "port": 3306,
+    "dialect": "mysql",
+    "logging": true,
+    "force": true,
+    "timezone": "+01:00"
+  }
+}
